@@ -1,4 +1,4 @@
-let paragraph=document.querySelector("#para");
+let paragraph=document.querySelector("#counter");
 let count=0;
 let btn=document.querySelector("#incrementBtn");
 paragraph.innerText=count.toString();
