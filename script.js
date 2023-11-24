@@ -5,3 +5,5 @@ para.id="counter";
 bodyele.appendChild(para);
 // let i=1;
 para.innerText="abc";
+let btn=document.createElement("Button");
+
