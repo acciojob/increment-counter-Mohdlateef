@@ -1,13 +1,13 @@
-//your JS code here. If required.
-let paragraph=document.querrySelector("#para");
-let i=0;
-paragraph.innerText=i.toString();
-let btn=document.querrySelector("#incrementBtn");
-function abc(i) {
-	alert("abc");
-	i++;
-	
-	
-}
-btn.addEventListenser("click",abc(i));
+let paragraph=document.querySelector("#para");
+let count=0;
+let btn=document.querySelector("#incrementBtn");
+paragraph.innerText=count.toString();
 
+btn.addEventListener("click",()=>{
+paragraph.innerText=count.toString();
+  
+  alert(count.toString());
+  count++;
+
+}
+  );
